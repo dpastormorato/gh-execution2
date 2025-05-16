@@ -2,7 +2,7 @@ name: Reusable code
 on: workflow_call
 jobs:
   deploy:
-    runs-out: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Output information
         run: echo "You print information out !!!"
