@@ -1,9 +1,0 @@
-name: Example with reusable code
-on:
-  push:
-    branches:
-      - main
-jobs:
-  deploy:
-    name: Using reusable code
-    uses: ./.github/workflows/reusable-code.yml

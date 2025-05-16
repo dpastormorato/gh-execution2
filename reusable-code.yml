@@ -1,7 +1,0 @@
-name: Reusable code
-on: workflow_call
-jobs:
-  runs-on: unbuntu-latest
-  steps:
-    name: Output information
-    echo: "Printing message from reusable information ..."
