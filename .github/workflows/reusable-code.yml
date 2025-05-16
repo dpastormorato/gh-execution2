@@ -5,4 +5,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Output information
-        echo: "Printing message from reusable information ..."
+        run: echo "Printing message from reusable information ..."
