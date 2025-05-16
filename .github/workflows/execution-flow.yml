@@ -5,5 +5,4 @@ on:
       - master
 jobs:
   deploy:
-    name: Using reusable code
     uses: ./.github/workflows/reusable-code.yml
