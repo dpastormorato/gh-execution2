@@ -1,8 +1,8 @@
 name: Reusable code
-on: workflow_call
+on: worflow_call
 jobs:
   deploy:
-    runs-on: ubuntu-latest
+    runs-out: ubuntu-latest
     steps:
       - name: Output information
-        run: echo "Printing message from reusable information ..."
+        run: echo "You print information out !!!"

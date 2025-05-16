@@ -1,4 +1,4 @@
-name: Example with reusable code
+name: Main workflow
 on:
   push:
     branches:
