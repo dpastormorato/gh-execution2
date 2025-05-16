@@ -1,8 +1,8 @@
-name: Reusable code
+name: Reusable block code
 on: workflow_call
 jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Output information
-        run: echo "You print information out !!!"
+      - name: Output some information
+        run: echo "Output some valuable information"
